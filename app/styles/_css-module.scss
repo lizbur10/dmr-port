@@ -1,0 +1,14 @@
+.css-module {
+  @include clearfix();
+  margin-bottom: 6em;
+  &> h2 {
+    padding: .5em .25em;
+    font-family: monospace;
+    background-color: #eee;
+  }
+  .sample-image {
+    display: block;
+    border: 1px solid #ddd;
+  }
+
+}
