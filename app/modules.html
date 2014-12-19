@@ -15,6 +15,7 @@
         <!-- build:css styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela+Round">
 
         <!-- build:js scripts/vendor/modernizr.js -->
         <script src="bower_components/modernizr/modernizr.js"></script>
@@ -33,19 +34,23 @@
       <img class="sample-image" src="images/modules/header.png" alt="header" width="1276">
 
       <!-- Page header section -->
-      <header>
-        <p class="who-i-am">User Experience Professional, Boston</p>
-        <p class="email">dmreich@gmail.com</p>
-        <h1>Debra Reich</h1>
+      <header class="header-and-nav">
+        <div class="top-line">
+          <p class="who-i-am">User Experience Professional, Boston</p>
+          <p class="email">dmreich@gmail.com</p>
+        </div>
+        <div class="bottom-line">
+          <h1>Debra Reich</h1>
 
-        <nav>
-          <ul class="main-nav">
-            <li>Resume</li>
-            <li>Portfolio</li>
-            <li>Other Interests</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
+          <nav>
+            <ul class="main-nav">
+              <li><a href="#">Resume</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Other Interests</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
       </header>
     <!-- end page header & nav section -->
 
@@ -56,21 +61,28 @@
       <img class="sample-image" src="images/modules/main-content.png" alt="main content" width="1276">
 
       <!-- Main content section -->
-      <div class="main-content"
-        <section class="resume">
-          <h2>Resume</h2>
+      <div class="main-content">
+        <section class="port-section">
+          <div class="overlay">
+            <h2><a href="#">Resume</a></h2>
+          </div>
           <img src="images/resume2.png" alt="debra's resume">
         </section>
 
-        <section class="portfolio">
-          <h2>Portfolio</h2>
+        <section class="port-section">
+          <div class="overlay">
+            <h2><a href="#">Portfolio</a></h2>
+          </div>
           <img src="images/portfolio2.png" alt="debra's portfolio">
         </section>
 
-        <section class="other-interests">
-          <h2>Other Interests</h2>
+        <section class="port-section">
+          <div class="overlay">
+            <h2><a href="#">Other Interests</a></h2>
+          </div>
           <img src="images/other3.png" alt="debra's other interests">
         </section>
+      </div>
       <!--end main content section -->
     </div>
 
@@ -81,8 +93,8 @@
 
 
       <footer>
-        <p><q>Simplicity is the ultimate sophistication.</q>
-        Leonardo da Vinci</p>
+        <p><q>Simplicity is the ultimate sophistication.</q></p>
+        <p class="author">&dash;Leonardo da Vinci</p>
 
       </footer>
     </div>

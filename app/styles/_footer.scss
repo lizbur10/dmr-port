@@ -1,0 +1,19 @@
+footer {
+  @include clearfix();
+  width: 70%;
+  margin: 50px auto;
+  padding: 2em 0 2em 2em;
+  border-top: 2px solid $gray-light;
+  border-bottom: 2px solid $gray-light;
+  font-family: $fontstack-alt;
+  font-size: .9em;
+  color: $gray-dark;
+  q {
+    width: 67%;
+    float: left;
+  }
+  .author {
+    width: 33%;
+    float: right;
+  }
+}

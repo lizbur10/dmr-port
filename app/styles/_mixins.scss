@@ -16,3 +16,9 @@
   display: table;
   clear: both;
 }
+@mixin colorset() {
+  background: -webkit-linear-gradient(top,rgba(101,83,141,1),rgba(101,83,141,.6)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(bottom,rgba(101,83,141,1),rgba(101,83,141,.6)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(bottom,rgba(101,83,141,1),rgba(101,83,141,.6)); /*Fx 3.6-15*/
+  background: linear-gradient(to bottom,rgba(101,83,141,1),rgba(101,83,141,.6)); /*Standard*/
+}

@@ -1,6 +1,10 @@
 //main.scss
 
+@import "variables";
 @import "mixins";
 @import "globals";
 
 @import "css-module";
+@import "footer";
+@import "header-and-nav";
+@import "main-content";
