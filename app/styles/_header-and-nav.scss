@@ -1,11 +1,11 @@
 .header-and-nav {
-  font-family: $fontstack;
+  font-family: $fontstack-headers;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: .15em;
   color: $gray-dark;
   max-width: 920px;
-  margin: 0 auto;
+  margin: 5em auto;
   display: block;
   .top-line, .bottom-line {
     width: 100%;
@@ -46,5 +46,4 @@
       }
     }
   }
-
 }

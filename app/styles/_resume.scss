@@ -1,0 +1,32 @@
+.resume {
+  margin: 5rem 1.2rem;
+  font-size: 16px;
+  .resume-section {
+    border-top: 2px solid $gray-light;
+    margin-bottom: 2em;
+    &:first-child {
+      border-top: none;
+    }
+  }
+  h2 {
+    margin-top: 2em;
+    font-size: 20px;
+  }
+  h3 {
+    margin-top: 2em;
+  }
+  .job-title {
+    font-weight: bold;
+  }
+  table {
+    margin-top: 3em;
+    margin-left: -.2em;
+    td {
+      font-weight: bold;
+      width: 175px;
+      &:first-child {
+        width: 450px;
+      }
+    }
+  }
+}
