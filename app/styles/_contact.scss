@@ -1,0 +1,40 @@
+.contact {
+  include: clearfix();
+  max-width: 990px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: .9em;
+  .col1, .col2 {
+    width: 45%;
+    float: left;
+  }
+  .col1 {
+    padding-right: 2em;
+  }
+  input {
+    height: 3em;
+    margin: 0 3px 2em 0;
+  }
+  label {
+    display: inline-block;
+    width: 95%;
+  }
+  label.name {
+    width: 49%;
+  }
+  button {
+    display: block;
+    margin: 1em 0;
+    height: 44px;
+    width: 116px;
+    background: $black;
+    color: white;
+    border: none;
+    font-size: 1em;
+  }
+}
+img {
+  display: block;
+  width: 918px;
+  margin: 0 auto 3em auto;
+}
