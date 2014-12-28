@@ -2,10 +2,10 @@ footer {
   @include clearfix();
   width: 82%;
   margin: 50px auto;
-  padding: 2em 0;
+  padding: 2em 2em;
   border-top: 2px solid $gray-light;
   border-bottom: 2px solid $gray-light;
-  font-family: $fontstack-headers;
+  font-family: $fontstack-main;
   font-size: .9em;
   color: $gray-dark;
   q {
