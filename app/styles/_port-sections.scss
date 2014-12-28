@@ -23,18 +23,18 @@
         & h2 {
           color: $gray-light;
         }
+        }
       }
     }
+    h2 {
+      font-size: 13px;
+      letter-spacing: .2em;
+      color: $gray-dark;
+      margin-top: 0;
+      padding-top: 250px;
+      text-align: center;
+    }
+    a {
+      text-decoration: none;
+    }
   }
-  h2 {
-    font-size: 13px;
-    letter-spacing: .2em;
-    color: $gray-dark;
-    margin-top: 0;
-    padding-top: 250px;
-    text-align: center;
-  }
-  a {
-    text-decoration: none;
-  }
-}

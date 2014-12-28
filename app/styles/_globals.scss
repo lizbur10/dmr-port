@@ -1,21 +1,17 @@
-html {
-  background-color: #F3F3F3;
-}
 body {
   background: #fafafa;
   font-family: $fontstack-main;
   color: $gray-dark;
-  width: 1116px;
+  width: 960px;
   margin: 0 auto;
   line-height: 1.5em;
-  border: 1px solid red;
   h1, h2 {
     font-family: $fontstack-headers;
     text-transform: uppercase;
     color: $black;
     font-weight: normal;
   }
-  h1,h2 a {
+  h1 a {
     text-decoration: none;
     color: $black;
   }
