@@ -1,0 +1,17 @@
+.other-interests{
+  @include clearfix();
+  margin: 0 auto;
+  .interest {
+    position: relative;
+    width: 252px;
+    float: left;
+    padding: 1.5em;
+    img {
+      max-width: 100%;
+    }
+    h2 {
+      font-size: 18px;
+      letter-spacing: .15em;
+    }
+  }
+}

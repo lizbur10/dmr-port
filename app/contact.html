@@ -9,6 +9,7 @@
 
         <!-- build:css styles/vendor.css -->
         <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
         <!-- endbower -->
         <!-- endbuild -->
 
@@ -31,7 +32,7 @@
     <p class="email">dmreich@gmail.com</p>
   </div>
   <div class="bottom-line">
-    <h1>Debra Reich</h1>
+    <h1><a href="index.html">Debra Reich</a></h1>
 
     <nav>
       <ul class="main-nav">
@@ -45,25 +46,31 @@
 </header>
 
 <p><img src="images/hudson-map.jpg" alt="hudson map"></p>
-<p>Please feel free to contact me via the form provided here or at my email address:</p>
+<section class="contact">
+  <div class="col1">
+    <p>Please feel free to contact me via the form provided here or at my email address:</p>
 
-<email>dmreich@gmail.com</email>
+    <email>dmreich@gmail.com</email>
 
-<p>I am located in the Boston area.</p>
+    <p>I am located in the Boston area.</p>
+  </div>
 
-<form id="contact-form" action="#" method="post">
-  <label for="firstname">First Name*</label>
-  <input required type="text" id="firstname">
-  <label for="lastname">Last Name*</label>
-  <input required type="text" id="lastname">
-  <label for="email">Email address*</label>
-  <input required type="email" id="email">
-  <label for="subject">Subject*</label>
-  <input required type="text" id="subject">
-  <label for="message">Message*</label>
-  <textarea required rows="6" cols="44" id="message" form="contact-form"></textarea>
-  <button type="submit">Submit</button>
-</form>
+  <div class="col2">
+    <form id="contact-form" action="#" method="post">
+      <label for="firstname">First Name*</label>
+      <input required type="text" id="firstname">
+      <label for="lastname">Last Name*</label>
+      <input required type="text" id="lastname">
+      <label for="email">Email address*</label>
+      <input required type="email" id="email">
+      <label for="subject">Subject*</label>
+      <input required type="text" id="subject">
+      <label for="message">Message*</label>
+      <textarea required rows="6" cols="44" id="message" form="contact-form"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
 
 <footer>
   <p><q>Simplicity is the ultimate sophistication.</q></p>
