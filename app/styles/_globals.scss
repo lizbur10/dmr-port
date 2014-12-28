@@ -1,5 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-  border: 1px solid red;
   background: #fafafa;
   font-family: $fontstack-main;
   color: $gray-dark;

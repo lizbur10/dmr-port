@@ -1,29 +1,36 @@
 .port-sections {
-  article {
-    position: relative;
-    overflow: hidden;
-    width: 284px;
-    height: 280px;
-    margin: 0 1em 3em 1em;
-    float: left;
-    img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      z-index: -10;
-    }
-    .overlay {
-      margin: 0;
-      padding: 0;
-      background-color: hsla(0, 0%, 80%, 0);
-      height: 100%;
-      &:hover {
-        background-color: hsla(0, 0%, 98%, .5);
-        & h2 {
-          color: $gray-light;
+  margin: 0 auto;
+  max-width: 918px;
+  .row {
+    article {
+      position: relative;
+      overflow: hidden;
+      width: 272px;
+      height: 280px;
+      margin: 0 3em 2em 0;
+      float: left;
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: -10;
+      }
+      .overlay {
+        margin: 0;
+        padding: 0;
+        background-color: hsla(0, 0%, 80%, 0);
+        height: 100%;
+        &:hover {
+          background-color: hsla(0, 0%, 98%, .5);
+          & h2 {
+            color: $gray-light;
+          }
         }
       }
+    }
+    article:last-child {
+      margin-right: 0;
     }
   }
   h2 {
@@ -31,7 +38,7 @@
     letter-spacing: .2em;
     color: $gray-dark;
     margin-top: 0;
-    padding-top: 250px;
+    padding-top: 230px;
     text-align: center;
   }
   a {

@@ -1,17 +1,23 @@
-.other-interests{
-  @include clearfix();
+.other-interests {
   margin: 0 auto;
+  max-width: 918px;
+  .container {
+    height: 400px;
+  }
   .interest {
-    position: relative;
-    width: 252px;
     float: left;
-    padding: 1.5em;
+    width: 284px;
+    height: 800px;
+    margin: 0 2em 2em 0;
     img {
-      max-width: 100%;
+      width: 100%;
     }
     h2 {
       font-size: 18px;
       letter-spacing: .15em;
     }
+  }
+  .interest:last-child {
+    margin-right: 0;
   }
 }

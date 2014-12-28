@@ -1,11 +1,11 @@
 .contact {
   include: clearfix();
-  max-width: 990px;
+  max-width: 918px;
   margin: 0 auto;
   padding: 0;
   font-size: .9em;
   .col1, .col2 {
-    width: 45%;
+    width: 50%;
     float: left;
   }
   .col1 {
@@ -13,14 +13,19 @@
   }
   input {
     height: 3em;
+    width: 98%;
     margin: 0 3px 2em 0;
+    &.name {
+      width: 48.5%;
+    }
   }
+
   label {
     display: inline-block;
     width: 95%;
   }
   label.name {
-    width: 49%;
+    width: 49.5%;
   }
   button {
     display: block;

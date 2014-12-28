@@ -1,15 +1,17 @@
 .resume {
-  margin: 5rem 1.2rem;
+  max-width: 918px;
+  margin: 0 auto;
   font-size: 16px;
   .resume-section {
     border-top: 2px solid $gray-light;
-    margin-bottom: 2em;
+    margin-bottom: 4em;
+    padding-top: 2em;
     &:first-child {
       border-top: none;
+      padding-top: 0;
     }
   }
   h2 {
-    margin-top: 2em;
     font-size: 20px;
   }
   h3 {
@@ -21,7 +23,7 @@
   .col1, .col2 {
     width: 33%;
     float: left;
-    padding: 0 1em 2em 0;
+    padding: 0 2em 4em 0;
   }
   a {
     text-decoration: none;
