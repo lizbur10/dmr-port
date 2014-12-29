@@ -27,9 +27,11 @@ body {
   a.current {
     border-bottom: 2px solid $gray-light;
   }
-  p.under-construction {
+  .under-construction {
+    margin-top: 0;
     img {
-      height: 500px;
+      display: block;
+      margin: 0 auto;
     }
   }
 }

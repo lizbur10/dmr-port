@@ -18,24 +18,24 @@
     .overlay {
       height: 100%;
       width: 100%;
-      &:hover {
-        @include colorset();
-        border: 2px solid $gray-dark;
-        &:hover a {
-          display: block;
-          color: white;
-        }
+    }
+    &:hover {
+      @include colorset();
+      border: 2px solid $gray-dark;
+      &:hover h2 {
+        display: block;
+        color: white;
       }
-      a {
-        display: none;
-        margin: 100px 30px;
-        padding: 1em;
-        text-align: center;
-        font-size: 20px;
-        text-decoration: none;
-        border-top: 2px solid white;
-        border-bottom: 2px solid white;
-      }
+    }
+    h2 {
+      display: none;
+      margin: 100px 30px;
+      padding: 1em;
+      text-align: center;
+      font-size: 20px;
+      text-decoration: none;
+      border-top: 2px solid white;
+      border-bottom: 2px solid white;
     }
   }
 }
