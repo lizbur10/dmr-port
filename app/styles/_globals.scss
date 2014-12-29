@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  background: $gray-extra-light;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -11,6 +12,7 @@ body {
   color: $gray-dark;
   width: 1116px;
   margin: 0 auto;
+  padding-bottom: 50px;
   line-height: 1.5em;
   h1, h2 {
     font-family: $fontstack-headers;
