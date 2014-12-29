@@ -1,0 +1,47 @@
+.resume {
+  max-width: 918px;
+  margin: 0 auto;
+  font-size: 14px;
+  .resume-section {
+    border-top: 2px solid $gray-light;
+    margin-bottom: 4em;
+    padding-top: 2em;
+    &:first-child {
+      border-top: none;
+      padding-top: 0;
+    }
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    margin-top: 2em;
+  }
+  .job-title {
+    font-weight: bold;
+  }
+  .col1, .col2 {
+    width: 33%;
+    float: left;
+    padding: 0 2em 4em 0;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    &:hover {
+      color: $gray-extra-dark;
+    }
+  }
+  table {
+    margin-top: 3em;
+    margin-left: -.2em;
+    td {
+      font-weight: bold;
+      width: 175px;
+      &:first-child {
+        width: 600px;
+      }
+    }
+  }
+}
