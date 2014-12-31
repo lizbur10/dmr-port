@@ -21,7 +21,6 @@
     }
     &:hover {
       @include colorset();
-      border: 2px solid $gray-dark;
       &:hover h2 {
         display: block;
         color: white;
