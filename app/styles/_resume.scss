@@ -35,8 +35,9 @@
   }
   table {
     margin-top: 3em;
-    margin-left: -.2em;
+    margin-left: 0;
     td {
+      margin-left: 1px;
       font-weight: bold;
       width: 175px;
       &:first-child {
