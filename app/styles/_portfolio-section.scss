@@ -1,0 +1,30 @@
+.portfolio-section {
+  @include clearfix();
+  margin: 0 auto;
+  max-width: 918px;
+  h2 {
+    font-size: 13px;
+    letter-spacing: .2em;
+    color: $gray-dark;
+    margin-top: 0;
+    padding-top: 20px;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    width: 441px;
+    &.one-third {
+      width: 134px;
+    }
+  }
+  .column-group-left {
+    width: 50%;
+    float: left;
+  }
+  .column-group-right {
+    width: 50%;
+    float: right;
+  }
+}
